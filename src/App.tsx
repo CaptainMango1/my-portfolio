@@ -1,19 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomewView from './common/views/HomeView';
-import Navbar from './common/components/Navbar';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomewView from "./common/views/HomeView";
+import Navbar from "./common/components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-            <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<HomewView/>} />
-            </Routes>
-            </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomewView />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
