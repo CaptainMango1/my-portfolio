@@ -1,0 +1,54 @@
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 3vh;
+    padding: 0;
+    color: #ffffff;
+}
+
+.lichess-card {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.808), rgba(0, 0, 0, 0.808)), url("../assets/images/lichessbg.png");
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+    border: #9EC7F8 solid 2px;
+}
+
+.lichess-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lichess-card-body p{
+    color: #ffffff;
+    font-size: 1.25em;
+    text-align: left;
+}
+
+.lichess-card-body h2 {
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #ffffff;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
