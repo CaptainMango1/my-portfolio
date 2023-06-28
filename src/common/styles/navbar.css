@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
 
 .navbar {
     margin-top: 0;
@@ -27,7 +27,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: all 0.25s ease-in-out;
-    font-family: 'Pridi', serif;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .nav-links:hover {

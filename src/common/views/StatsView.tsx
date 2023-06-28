@@ -10,7 +10,6 @@ const StatsView = () => {
       <div className="stats-container">
         <ChessStatsCard />
         <LichessStatsCard />
-        <ChessStatsCard />
       </div>
     </div>
   );
