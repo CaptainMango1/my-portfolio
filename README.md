@@ -4,12 +4,12 @@
 
 Hello! This is my portfolio, built with React. It's a work in progress, but I'm happy with how it's coming along. I'm using this project to learn more about React, and to showcase my skills and projects. I'm also using this project to learn more about Styled Components, and to practice my design skills.
 
-## Tech Stack
+## 💻 Tech Stack
 
 **Client:** React, React Router, Styled Components
 **Styles:** CSS, Styled Components
 
-## Roadmap
+## 🗺 Roadmap
 
 - ✔ Create a basic portfolio
 - ✔ Add a project section
