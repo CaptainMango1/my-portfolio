@@ -7,7 +7,7 @@ const projects:Project[] = [
         name: "Project 1",
         description: "This is a description of Project 1",
         githubUrl: "",
-        imagePath: "",
+        imagePath: require("../assets/images/Placeholder_view_vector.svg.png"),
         addInfo: ""
     },
     {
@@ -15,7 +15,7 @@ const projects:Project[] = [
         name: "Project 2",
         description: "This is a description of Project 2",
         githubUrl: "",
-        imagePath: "",
+        imagePath: require("../assets/images/Placeholder_view_vector.svg.png"),
         addInfo: ""
     },
 ]

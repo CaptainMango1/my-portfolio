@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
 
 .project-view-header {
-    margin-bottom: 20vh;
+    margin-bottom: 18vh;
     font-family: 'Duru Sans', sans-serif;
 }
 
@@ -9,5 +9,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
 }

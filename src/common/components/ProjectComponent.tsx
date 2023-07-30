@@ -15,6 +15,7 @@ const ProjectComponent: React.FC<ProjectComponentProps> = (props) => {
             className="project-card-image"
             src={props.project.imagePath}
             alt="image of project"
+            width={350}
           />
         </a>
         <p className="project-card-desc">{props.project.description}</p>
