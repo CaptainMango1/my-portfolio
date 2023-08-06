@@ -32,3 +32,14 @@
     font-size: 1.1em;
     width: 30ch;
 }
+
+.project-card-footer {
+    margin-top: 2vh;
+    justify-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: #9EC7F8;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 0.85em;
+    text-align: center;
+}

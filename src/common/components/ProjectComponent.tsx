@@ -21,7 +21,7 @@ const ProjectComponent: React.FC<ProjectComponentProps> = (props) => {
           />
         </a>
         <p className="project-card-desc">{props.project.description}</p>
-        <p className="project-card-footer">{props.project.addInfo}</p>
+        <a className="project-card-footer" href={props.project.addInfo} target="_blank">{props.project.addInfo}</a>
       </div>
     </div>
   );

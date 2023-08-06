@@ -8,7 +8,7 @@ const projects:Project[] = [
         description: "My portfolio website built with React and TypeScript. Its hosted with vercel.",
         githubUrl: "",
         imagePath: require("../assets/images/project-portfolio.png"),
-        addInfo: ""
+        addInfo: "https://github.com/CaptainMango1/my-portfolio"
     },
     {
         id: 2,
