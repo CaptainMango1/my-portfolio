@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color:  #181818;
-    padding: 6vh 2vw 6vh 2vw; 
+    padding: 4vh 2.5vw 4vh 2.5vw; 
     /* box-shadow: 0 0 10px 0 rgb(255, 255, 255); */
     transition: box-shadow 0.15s ease-in-out;
     border-radius: 12px;
@@ -23,11 +23,12 @@
 }
 
 .project-card-image {
-
+    margin-bottom: 1lvh;
 }
 
 .project-card-desc {
     margin-top: 2vh;
     font-family: 'Didact Gothic', sans-serif;
     font-size: 1.1em;
+    width: 30ch;
 }

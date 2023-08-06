@@ -14,8 +14,10 @@ const ProjectComponent: React.FC<ProjectComponentProps> = (props) => {
           <img
             className="project-card-image"
             src={props.project.imagePath}
-            alt="image of project"
-            width={350}
+            alt="project"
+            width={300}
+            onClick={() => { }}
+            // TODO: Add full page view of project
           />
         </a>
         <p className="project-card-desc">{props.project.description}</p>

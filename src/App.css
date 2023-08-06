@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+/* For Firefox */
+* {
+  scrollbar-color: #6b819b86 rgb(37, 37, 37);
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+/* For Webkit-based browsers (Chrome, Safari) */
+*::-webkit-scrollbar {
+  width: thin;
+  color: #6b819b86;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(37, 37, 37);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(37, 37, 37);
+}
+
+*::-webkit-scrollbar-track {
+  background-color: rgb(37, 37, 37);
+}
