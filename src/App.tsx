@@ -7,6 +7,7 @@ import Navbar from "./common/components/Navbar";
 import AboutMe from "./common/views/AboutMe";
 import StatsView from "./common/views/StatsView";
 import ProjectView from "./common/views/ProjectView";
+import SkillsView from "./common/views/SkillsView";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/stats" element={<StatsView />} />
           <Route path="/projects" element={<ProjectView />} />
+          <Route path="/skills" element={<SkillsView />} />
         </Routes>
       </BrowserRouter>
     </div>
