@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 h1 {
-    margin-top: 12vh;
+    margin-top: 8vh;
 }
 
 p {
@@ -13,12 +13,12 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 7vh;
     padding-left: 35vw;
     padding-right: 35vw;
 }
 
 .about-me-paragraph {
-    font-size: 1.2em;
+    font-size: 1.35em;
     font-family: 'Didact Gothic', sans-serif;
 }
