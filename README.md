@@ -13,7 +13,7 @@ Hello! This is my portfolio, built with React. It's a work in progress, but I'm 
 
 - ✔ Create a basic portfolio
 - ✔ Add a project section
-- ◻ Add a skills section
+- ✔ Add a skills section
 - ◻ Add a stats section
 - ◻ Add a contact form
 - ◻ Add a blog
