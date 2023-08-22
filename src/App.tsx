@@ -20,6 +20,7 @@ function App() {
           <Route path="/stats" element={<StatsView />} />
           <Route path="/projects" element={<ProjectView />} />
           <Route path="/skills" element={<SkillsView />} />
+          <Route path="/stats" element={<StatsView />} />
         </Routes>
       </BrowserRouter>
     </div>
