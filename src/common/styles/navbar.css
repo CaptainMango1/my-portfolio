@@ -23,9 +23,9 @@
 .nav-links {
     color: white;
     text-decoration: none;
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-size: 1.2em;
     cursor: pointer;
+    font-weight: 600;
     transition: all 0.25s ease-in-out;
     font-family: 'Libre Franklin', sans-serif;
 }
@@ -38,5 +38,5 @@
 }
 
 .navbar-logo {
-
+height: auto;
 }
