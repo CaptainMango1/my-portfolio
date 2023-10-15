@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomewView from "./common/views/HomeView";
 import Navbar from "./common/components/Navbar";
 import AboutMe from "./common/views/AboutMe";
-import StatsView from "./common/views/StatsView";
 import ProjectView from "./common/views/ProjectView";
 import SkillsView from "./common/views/SkillsView";
 
@@ -17,10 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomewView />} />
           <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/stats" element={<StatsView />} />
           <Route path="/projects" element={<ProjectView />} />
           <Route path="/skills" element={<SkillsView />} />
-          <Route path="/stats" element={<StatsView />} />
         </Routes>
       </BrowserRouter>
     </div>

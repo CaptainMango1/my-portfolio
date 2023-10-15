@@ -29,11 +29,6 @@ const Navbar = () => {
               Skills
             </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/stats" className="nav-links">
-              Stats
-            </Link>
-          </li>
         </ul>
       </div>
     </div>
