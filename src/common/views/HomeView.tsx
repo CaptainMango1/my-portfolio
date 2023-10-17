@@ -3,7 +3,6 @@ import "../styles/homeview.css";
 import main_image from "../assets/images/code-main-page.svg";
 import discord_image from "../assets/images/discord.png";
 import github_image from "../assets/images/github.png";
-import spotigy_image from "../assets/images/spotify.png";
 import twitter_image from "../assets/images/twitter.png";
 
 const HomewView = () => {
@@ -32,17 +31,6 @@ const HomewView = () => {
           />
         </a>
 
-        <a
-          href="https://open.spotify.com/user/dse51hwu8lme3vk57ur8h2zy5"
-          target="_blank"
-        >
-          <img
-            src={spotigy_image}
-            className="social-image"
-            alt="image"
-            width={60}
-          />
-        </a>
         <a href="https://twitter.com/mangoeis01" target="_blank">
           <img
             src={twitter_image}
