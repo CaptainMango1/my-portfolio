@@ -20,10 +20,13 @@
 .project-card-title {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 1.6em;
+    color: #ffffff;
+    margin-bottom: 2vh;
 }
 
 .project-card-image {
     margin-bottom: 1lvh;
+    border: #ffffff 1px solid;
 }
 
 .project-card-desc {
